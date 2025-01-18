@@ -1097,7 +1097,7 @@ pluginlist = PluginDescriptor(name=_("EPG-Importer"), description=description, w
 
 
 def epgmenu(menuid, **kwargs):
-	if IMAGEDISTRO in ("openvix", "openbh", "ventonsupport", "egami", "openhdf", "opendroid"):
+	if IMAGEDISTRO in ("zukonMOD", "openvix", "openbh", "ventonsupport", "egami", "openhdf", "opendroid"):
 		if menuid == "epg":
 			return [(_("EPG-Importer"), main, "epgimporter", 1002)]
 		else:
